@@ -56,7 +56,9 @@ class Protonet(nn.Module):
 
         return loss_val, {
             'loss': loss_val.item(),
-            'acc': acc_val.item()
+            'acc': acc_val.item(),
+            'log_p_y': log_p_y.data,
+            'dists': dists.data
         }
 
 @register_model('protonet_conv')
