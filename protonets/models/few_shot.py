@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 from torch.autograd import Variable
 
-from protonets.models import register_model
+from prototypical_networks.protonets.models import register_model
 
 from .utils import euclidean_dist
 

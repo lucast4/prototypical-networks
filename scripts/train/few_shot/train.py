@@ -13,9 +13,9 @@ import torchnet as tnt
 
 from protonets.engine import Engine
 
-import protonets.utils.data as data_utils
-import protonets.utils.model as model_utils
-import protonets.utils.log as log_utils
+import prototypical_networks.protonets.utils.data as data_utils
+import prototypical_networks.protonets.utils.model as model_utils
+import prototypical_networks.protonets.utils.log as log_utils
 
 def main(opt):
     if not os.path.isdir(opt['log.exp_dir']):

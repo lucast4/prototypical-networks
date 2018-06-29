@@ -1,3 +1,3 @@
-from protonets.models.factory import get_model, register_model
+from prototypical_networks.protonets.models.factory import get_model, register_model
 
-import protonets.models.few_shot
+import prototypical_networks.protonets.models.few_shot
